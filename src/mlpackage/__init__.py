@@ -13,3 +13,4 @@ from .supervised_learning.decision_tree import DecisionTree
 from .supervised_learning.knn import KNN
 from .supervised_learning.ensemble_methods import _BaseBagging
 from .unsupervised_learning.pca import PCA
+from .unsupervised_learning.kmeans import KMeans
