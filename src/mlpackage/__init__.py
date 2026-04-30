@@ -11,3 +11,5 @@ from .supervised_learning.logistic_regression import LogisticRegression
 from .supervised_learning.mlp import MultilayerPerceptron
 from .supervised_learning.decision_tree import DecisionTree
 from .supervised_learning.knn import KNN
+from .supervised_learning.random_forest import RandomForest
+

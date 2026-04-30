@@ -4,3 +4,4 @@ from .logistic_regression import LogisticRegression
 from .mlp import MultilayerPerceptron
 from .decision_tree import DecisionTree
 from .knn import KNN
+from .random_forest import RandomForest
