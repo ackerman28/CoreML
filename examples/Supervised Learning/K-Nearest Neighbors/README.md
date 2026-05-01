@@ -10,7 +10,7 @@ A from-scratch implementation of K-Nearest Neighbors supporting classification a
 |---|---|
 | `knn_analysis.ipynb` | End-to-end analysis on synthetic and real datasets |
 | `../../src/mlpackage/supervised_learning/knn.py` | Core implementation |
-| `../../tests/test_knn.py` | Unit test suite |
+| `../../tests/test_knn.py` | Unit test suite | 
 
 ---
 
