@@ -24,24 +24,24 @@ Each implementation includes:
 
 ### Supervised Learning
 
-| Algorithm | Description | Notebook |
-|---|---|---|
-| [Perceptron](examples/Supervised%20Learning/Perceptron/) | Binary linear classifier via the Perceptron Learning Rule | [📓](examples/Supervised%20Learning/Perceptron/perceptron_analysis.ipynb) |
-| [Linear Regression](examples/Supervised%20Learning/Linear%20Regression/) | Normal equation and gradient descent solvers | [📓](examples/Supervised%20Learning/Linear%20Regression/linear_regression_analysis.ipynb) |
-| [Logistic Regression](examples/Supervised%20Learning/Logistic%20Regression/) | Binary classifier with sigmoid + cross-entropy loss | [📓](examples/Supervised%20Learning/Logistic%20Regression/logistic_regression_analysis.ipynb) |
-| [Multilayer Perceptron](examples/Supervised%20Learning/Neural%20Networks/) | Feedforward neural network trained via backpropagation | [📓](examples/Supervised%20Learning/Neural%20Networks/mlp_analysis.ipynb) |
-| [K-Nearest Neighbors](examples/Supervised%20Learning/KNN/) | Instance-based classifier and regressor | [📓](examples/Supervised%20Learning/KNN/knn_analysis.ipynb) |
-| [Decision Tree](examples/Supervised%20Learning/Decision%20Trees/) | CART with entropy/Gini, regression, and feature importances | [📓](examples/Supervised%20Learning/Decision%20Trees/decision_tree_analysis.ipynb) |
-| [Random Forest](examples/Supervised%20Learning/Random%20Forest/) | Bagging ensemble of decision trees with OOB scoring | [📓](examples/Supervised%20Learning/Random%20Forest/random_forest_analysis.ipynb) |
-| [Ensemble Methods](examples/Supervised%20Learning/Ensembles/) | Bagging classifier/regressor and Voting classifier | [📓](examples/Supervised%20Learning/Ensembles/ensemble_analysis.ipynb) |
+| Algorithm | Description |
+|---|---|
+| **Perceptron** | Binary linear classifier via the Perceptron Learning Rule |
+| **Linear Regression** | Normal equation and gradient descent solvers |
+| **Logistic Regression** | Binary classifier with sigmoid + cross-entropy loss |
+| **Multilayer Perceptron** | Feedforward neural network trained via backpropagation |
+| **K-Nearest Neighbors** | Instance-based classifier and regressor |
+| **Decision Tree** | CART with entropy/Gini, regression, and feature importances |
+| **Random Forest** | Bagging ensemble of decision trees with OOB scoring |
+| **Ensemble Methods** | Bagging classifier/regressor and Voting classifier |
 
 ### Unsupervised Learning
 
-| Algorithm | Description | Notebook |
-|---|---|---|
-| [PCA](examples/Unsupervised%20Learning/PCA/) | Eigendecomposition-based dimensionality reduction | [📓](examples/Unsupervised%20Learning/PCA/pca_analysis.ipynb) |
-| [K-Means](examples/Unsupervised%20Learning/KMeans/) | Lloyd's algorithm with K-Means++ initialization | [📓](examples/Unsupervised%20Learning/KMeans/kmeans_analysis.ipynb) |
-| [DBSCAN](examples/Unsupervised%20Learning/DBSCAN/) | Density-based clustering with noise detection | [📓](examples/Unsupervised%20Learning/DBSCAN/dbscan_analysis.ipynb) |
+| Algorithm | Description |
+|---|---|
+| **PCA** | Eigendecomposition-based dimensionality reduction |
+| **K-Means** | Lloyd's algorithm with K-Means++ initialization |
+| **DBSCAN** | Density-based clustering with noise detection |
 
 ---
 
