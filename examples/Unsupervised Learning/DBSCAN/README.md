@@ -19,9 +19,9 @@ A from-scratch implementation of Density-Based Spatial Clustering of Application
 DBSCAN classifies each point as a **core point**, **border point**, or **noise point** based on its local neighborhood density.
 
 A point $p$ is a **core point** if:
-$$|N_\varepsilon(p)| \geq \text{min\_samples}$$
+$$|N_\varepsilon(p)| \geq \text{minSamples}$$
 
-where $N_\varepsilon(p) = \{q : d(p, q) \leq \varepsilon\}$.
+where $N_\varepsilon(p) = \lbrace q : d(p, q) \leq \varepsilon \rbrace$.
 
 All density-connected points form one cluster. Points not reachable from any core point are labeled noise ($-1$).
 

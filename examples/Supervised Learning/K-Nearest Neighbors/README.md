@@ -18,9 +18,9 @@ A from-scratch implementation of K-Nearest Neighbors supporting classification a
 
 KNN is a **non-parametric, lazy learning** algorithm. It stores the training set and makes predictions by finding the K closest points to a query:
 
-$$\hat{y} = \text{majority}\left\{ y^{(i)} : i \in \mathcal{N}_k(\mathbf{x}) \right\} \quad \text{(classification)}$$
+$$\hat{y} = \text{majority}\lbrace y^{(i)} : i \in N_k(\mathbf{x}) \rbrace \quad \text{(classification)}$$
 
-$$\hat{y} = \frac{1}{K}\sum_{i \in \mathcal{N}_k(\mathbf{x})} y^{(i)} \quad \text{(regression)}$$
+$$\hat{y} = \frac{1}{K}\sum_{i \in N_k(\mathbf{x})} y^{(i)} \quad \text{(regression)}$$
 
 Three distance metrics are supported:
 

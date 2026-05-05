@@ -19,7 +19,7 @@ A from-scratch Random Forest implementation supporting classification and regres
 Random Forest builds $B$ Decision Trees, each on a bootstrap sample, and aggregates their predictions:
 
 **Classification (majority vote):**
-$$\hat{y} = \text{mode}\left\{ h_1(\mathbf{x}), \dots, h_B(\mathbf{x}) \right\}$$
+$$\hat{y} = \text{mode}\lbrace h_1(\mathbf{x}), \dots, h_B(\mathbf{x}) \rbrace$$
 
 **Regression (mean):**
 $$\hat{y} = \frac{1}{B}\sum_{b=1}^{B} h_b(\mathbf{x})$$
